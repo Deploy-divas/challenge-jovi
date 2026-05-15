@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/camera.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Câmera</title>
+</head>
+<body>
+    <div class="phone">
+        <div class="screen">
+            <header class="camera-topbar">
+                <img src="assets/icons/google-lens.svg" alt="Google Lens" class="icon-small">
+                <img src="assets/icons/flash.svg" alt="Flash" class="icon-small">
+                <img src="assets/icons/live-photo.svg" alt="Live" class="icon-small">
+                <img src="assets/icons/zeiss-icon.png" alt="ZEISS" class="icon-zeiss">
+                <img src="assets/icons/macro.svg" alt="Macro" class="icon-small">
+                <img src="assets/icons/setting.svg" alt="Configurações" class="icon-small">
+            </header>
+            <main class="camera-view">
+                <img src="assets/images/foto-quadro.png" alt="Imagem" id="slide" class="imagem-camera">
+            </main>
+            <footer class="camera-bottombar">
+                <div class="zoom">
+                    <div class="zoom-section">
+                        <span>0.6</span>
+                        <span>• • •</span>
+                        <span class="active-zoom">1x</span>
+                        <span>• • •</span>
+                        <span>2</span>
+                    </div>
+                </div>
+                <div class="modos-camera">
+                    <p>Noite</p>
+                    <p>Retrato</p>
+                    <p class="modo-ativo">Foto</p>
+                    <p>Vídeo</p>
+                    <p>Mais</p>
+                </div>
+                <div class="camera-controls">
+                    <img src="assets/images/foto-gato.png" alt="Galeria" class="galeria">
+                    <a href="textoReconhecido.html">
+                        <button class="camera-btn" id="capturar"></button>  
+                    </a>
+                    <button class="virar-camera" id="virar">
+                        <img src="assets/icons/rotate.svg" alt="Virar câmera">
+                    </button>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="src/js/camera.js"></script>
+</body>
+</html>
